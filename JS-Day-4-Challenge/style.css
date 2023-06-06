@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#field1 {
+    border: 2em solid red;
+    width: 40em;
+    height: 40em;
+    margin-right: 30em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#field2 {
+    border: 2em solid blue;
+    width: 40em;
+    height: 40em;
+    margin-left: 10em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dice1 {
+    width: 5em;
+    height: 5em;
+    z-index: 99;
+    
+}
+
+#dice2 {
+    width: 5em;
+    height: 5em;
+    z-index: 2;
+    
+}
+
+#vs {
+    width: 50%;
+    margin: auto;
+
+}
+
+#result1 {
+    z-index: 99;
+}
+
+#result2 {
+    z-index: 99;
+}
+
+footer {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#winner {
+    text-align: center;
+    font-size: 3em;
+    z-index: 99;
+
+}
+
+@media screen and (width < 1150px) {
+    
+}
+
+@media screen and (width < 650px) {
+    
+}

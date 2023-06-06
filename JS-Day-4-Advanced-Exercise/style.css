@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+#circle {
+    border-radius: 50%;
+    background-color: rgb(21, 184, 62);
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+}
+
+#message {
+    display: flex;
+    justify-content: center; 
+}
